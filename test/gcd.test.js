@@ -9,7 +9,7 @@ describe('gcd function', function () {
   })
 
   it('should return the greatest common divisor when one number is a multiple of the other', function () {
-    assert.strictEqual(gcd(5, 10), 5)
+    assert.strictEqual(gcd(10, 5), 5)
   })
 
   it('should return the greatest common divisor when the numbers are co-prime', function () {
